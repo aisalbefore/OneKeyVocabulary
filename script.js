@@ -281,7 +281,7 @@ const flashcardData = {
 
 // Mengambil data awal
 let currentCategoryKey = 'noun';
-let currentSituationKey = 'rumah';
+let currentSituationKey = 'sekolah';
 let currentLevelKey = 'L1';
 let originalFlashcards = [];
 let currentFlashcards = [];
@@ -436,5 +436,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 startFromModalBtn.addEventListener('click', () => {
     initialModal.classList.remove('show');
-    loadCategory('noun', 'rumah', 'L1');
+    loadCategory('noun', 'sekolah', 'L1');
 });
