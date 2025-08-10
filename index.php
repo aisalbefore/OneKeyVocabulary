@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="img/p.png" type="image/png">
+    <title>OneKey-Vocabulary</title>
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-rounded" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="main-content">
+        <div class="liquid-glass-header" id="main-header">
+            <div class="liquid-glass-header-title">
+                <div class="profile-circle"></div> <h2 id="header-title">OneKey</h2>
+                <span id="total-words"></span>
+            </div>
+            <button class="slidebar-trigger">Pilih Kategori</button>
+        </div>
+        
+        <div class="slidebar-menu" id="slidebar-menu">
+            <div class="slidebar-header liquid-glass-footer">
+                <h2 class="slidebar-title">Pilih Kategori</h2>
+                <a href="#" class="done-btn" id="done-btn">Selesai</a>
+            </div>
+
+            <div class="slidebar-content">
+                <div class="category-item" data-category="noun">
+                    <span class="category-title">Noun</span>
+                    <div class="level-item-container" data-level-group="noun">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/school_1f3eb.png" alt="Emoji Senyum" width="18" height="18"> Sekolah</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="sekolah" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="noun">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/house-with-garden_1f3e1.png" alt="Emoji Senyum" width="18" height="18"> Rumah</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="rumah" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="noun">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/shopping-cart_1f6d2.png" alt="Emoji Senyum" width="18" height="18"> Pasar</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="pasar" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="noun">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/beach-with-umbrella_1f3d6-fe0f.png" alt="Emoji Senyum" width="18" height="18"> Liburan</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="liburan" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="noun">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/hospital_1f3e5.png" alt="Emoji Senyum" width="18" height="18"> Hospital</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="noun">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/world-map_1f5fa-fe0f.png" alt="Emoji Senyum" width="18" height="18"> Bepergian</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="bepergian" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="noun">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/steaming-bowl_1f35c.png" alt="Emoji Senyum" width="18" height="18"> Restoran</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="restoran" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 8px 0;">
+
+                <div class="category-item" data-category="verb">
+                    <span class="category-title">Verb</span>
+                    <div class="level-item-container" data-level-group="verb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/school_1f3eb.png" alt="Emoji Senyum" width="18" height="18"> Sekolah</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="sekolah" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="verb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/house-with-garden_1f3e1.png" alt="Emoji Senyum" width="18" height="18"> Rumah</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="rumah" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="verb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/shopping-cart_1f6d2.png" alt="Emoji Senyum" width="18" height="18"> Pasar</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="pasar" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="verb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/beach-with-umbrella_1f3d6-fe0f.png" alt="Emoji Senyum" width="18" height="18"> Liburan</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="liburan" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="verb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/hospital_1f3e5.png" alt="Emoji Senyum" width="18" height="18"> Hospital</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="verb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/world-map_1f5fa-fe0f.png" alt="Emoji Senyum" width="18" height="18"> Bepergian</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="bepergian" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="verb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/steaming-bowl_1f35c.png" alt="Emoji Senyum" width="18" height="18"> Restoran</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="restoran" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 8px 0;">
+
+                <div class="category-item" data-category="adjective">
+                    <span class="category-title">Adjective</span>
+                    <div class="level-item-container" data-level-group="adjective">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/school_1f3eb.png" alt="Emoji Senyum" width="18" height="18"> Sekolah</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="sekolah" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adjective">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/house-with-garden_1f3e1.png" alt="Emoji Senyum" width="18" height="18"> Rumah</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="rumah" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adjective">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/shopping-cart_1f6d2.png" alt="Emoji Senyum" width="18" height="18"> Pasar</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="pasar" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adjective">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/beach-with-umbrella_1f3d6-fe0f.png" alt="Emoji Senyum" width="18" height="18"> Liburan</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="liburan" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adjective">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/hospital_1f3e5.png" alt="Emoji Senyum" width="18" height="18"> Hospital</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adjective">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/world-map_1f5fa-fe0f.png" alt="Emoji Senyum" width="18" height="18"> Bepergian</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="bepergian" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adjective">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/steaming-bowl_1f35c.png" alt="Emoji Senyum" width="18" height="18"> Restoran</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="restoran" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 8px 0;">
+                
+                <div class="category-item" data-category="adverb">
+                    <span class="category-title">Adverb</span>
+                    <div class="level-item-container" data-level-group="adverb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/school_1f3eb.png" alt="Emoji Senyum" width="18" height="18"> Sekolah</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="sekolah" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adverb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/house-with-garden_1f3e1.png" alt="Emoji Senyum" width="18" height="18"> Rumah</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="rumah" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adverb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/shopping-cart_1f6d2.png" alt="Emoji Senyum" width="18" height="18"> Pasar</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="pasar" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adverb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/beach-with-umbrella_1f3d6-fe0f.png" alt="Emoji Senyum" width="18" height="18"> Liburan</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="liburan" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adverb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/hospital_1f3e5.png" alt="Emoji Senyum" width="18" height="18"> Hospital</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adverb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/world-map_1f5fa-fe0f.png" alt="Emoji Senyum" width="18" height="18"> Bepergian</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="bepergian" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="adverb">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/steaming-bowl_1f35c.png" alt="Emoji Senyum" width="18" height="18"> Restoran</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="restoran" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 8px 0;">
+
+                <div class="category-item" data-category="preposition">
+                    <span class="category-title">Preposition</span>
+                    <div class="level-item-container" data-level-group="preposition">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/school_1f3eb.png" alt="Emoji Senyum" width="18" height="18"> Sekolah</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="sekolah" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="sekolah" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="preposition">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/house-with-garden_1f3e1.png" alt="Emoji Senyum" width="18" height="18"> Rumah</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="rumah" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="rumah" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="preposition">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/shopping-cart_1f6d2.png" alt="Emoji Senyum" width="18" height="18"> Pasar</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="pasar" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="pasar" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="preposition">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/beach-with-umbrella_1f3d6-fe0f.png" alt="Emoji Senyum" width="18" height="18"> Liburan</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="liburan" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="liburan" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="preposition">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/hospital_1f3e5.png" alt="Emoji Senyum" width="18" height="18"> Hospital</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="rumahsakit" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="preposition">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/world-map_1f5fa-fe0f.png" alt="Emoji Senyum" width="18" height="18"> Bepergian</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="bepergian" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="bepergian" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                    <div class="level-item-container" data-level-group="preposition">
+                        <span class="situation-label"><img src="https://em-content.zobj.net/source/apple/419/steaming-bowl_1f35c.png" alt="Emoji Senyum" width="18" height="18"> Restoran</span>
+                        <div class="level-buttons">
+                            <button class="level-btn" data-situation="restoran" data-level="L1">L1</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L2">L2</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L3">L3</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L4">L4</button>
+                            <button class="level-btn" data-situation="restoran" data-level="L5">L5</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blur-overlay" id="blur-overlay"></div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+            <span id="progress-text" class="progress-text">0 / 0 selesai</span>
+        </div>
+
+        <div class="flashcard" id="flashcard">
+            <div class="flashcard-inner">
+                <div class="flashcard-front" id="flashcard-front"></div>
+                <div class="flashcard-back" id="flashcard-back"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="unhafal-btn">Belum Hafal</button>
+            <button id="shuffle-btn">Acak</button>
+            <button id="hafal-btn">Hafal</button>
+        </div>
+        <button id="restart-btn">Mulai Ulang</button>
+    </div>
+
+    <div id="congratulationsModal" class="ios-modal">
+        <div class="ios-modal-content">
+            <p class="modal-title">Selesai!</p>
+            <p class="modal-title"><img src="https://em-content.zobj.net/source/apple/419/party-popper_1f389.png" alt="Emoji Senyum" width="50" height="50"></p>
+            <p class="modal-message">Anda sudah menghafal semua kata dalam daftar ini.</p>
+            <div class="modal-divider"></div>
+            <button id="restartFromModal" class="modal-button">Mulai Ulang</button>
+        </div>
+    </div>
+    <div id="initialModal" class="ios-modal">
+        <div class="ios-modal-content">
+            <p class="modal-title">Notes!</p>
+            <p class="modal-message">Yuk follow aku di:<br>
+            <i class="fab fa-instagram"></i> Instagram: @waisnett
+            <br><i class="fab fa-tiktok"></i> TikTok: @itsmeaisal
+            <br><i class="fab fa-youtube"></i> YouTube: Aisal TV
+            <br><img src="https://em-content.zobj.net/source/apple/419/sparkles_2728.png" alt="Emoji Senyum" width="18" height="18"> Terima kasih & enjoy!</p>
+            <div class="modal-divider"></div>
+            <button id="startFromModal" class="modal-button">Mulai</button>
+        </div>
+    </div>
+    <footer class="liquid-glass-footer">
+        <p>© 2025 OneKey Vocabulary • Designed by Wais Alqurni</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
