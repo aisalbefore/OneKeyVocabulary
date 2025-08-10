@@ -14,7 +14,7 @@ Selamat datang di **OneKey Vocabulary Flashcards**! Aplikasi ini dirancang untuk
     - Tekan tombol "Belum Hafal" untuk melihat kata berikutnya.
     - Gunakan tombol "Acak" untuk mengacak urutan kata.
 - **Progress Bar:** Lacak kemajuan hafalan Anda dengan progress bar yang akan terisi seiring Anda menyelesaikan setiap kata.
-- **Notifikasi Selesai:** Dapatkan pop-up notifikasi yang menarik saat Anda berhasil menghafal semua kata dalam daftar.
+- **Notifikasi Selesai:** Dapatkan pop-up notifikasi yang menarik saat Anda berhasil menghafal semua kata dalam daftar ini.
 
 ## Cara Menggunakan
 
@@ -27,4 +27,12 @@ Selamat datang di **OneKey Vocabulary Flashcards**! Aplikasi ini dirancang untuk
 5.  **Selesaikan Semua Kata:** Setelah semua kata terhafal, Anda akan melihat pesan "Selesai!". Klik "Mulai Ulang" untuk mengulang sesi.
 6.  **Ubah Kategori:** Anda dapat membuka menu samping kapan saja untuk memilih kategori, situasi, atau level yang berbeda.
 
-Selamat menghafal!
+## Didesain oleh Wais Alqurni
+
+Proyek ini dibuat dan dikembangkan oleh Wais Alqurni. Jika Anda menyukai proyek ini, silakan ikuti saya di media sosial:
+
+-   **Instagram:** `@waisnett`
+-   **TikTok:** `@itsmeaisal`
+-   **YouTube:** `Aisal TV`
+
+Terima kasih & enjoy!
