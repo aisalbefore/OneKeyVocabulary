@@ -431,10 +431,25 @@ document.querySelectorAll('.level-btn').forEach(btn => {
 
 // === PERBAIKAN DI SINI ===
 document.addEventListener('DOMContentLoaded', () => {
-    initialModal.classList.add('show');
+    // Cek apakah ini kunjungan pertama dengan localStorage
+    const isFirstVisit = localStorage.getItem('isFirstVisit');
+
+    if (!isFirstVisit) {
+        // Jika ini kunjungan pertama, tampilkan modal
+        initialModal.classList.add('show');
+    } else {
+        // Jika bukan kunjungan pertama, langsung muat kategori default
+        loadCategory('noun', 'sekolah', 'L1');
+    }
 });
 
 startFromModalBtn.addEventListener('click', () => {
+    // Sembunyikan modal
     initialModal.classList.remove('show');
+    
+    // Simpan flag di localStorage agar modal tidak muncul lagi di kunjungan berikutnya
+    localStorage.setItem('isFirstVisit', 'false');
+
+    // Muat kategori default
     loadCategory('noun', 'sekolah', 'L1');
 });
